@@ -14,6 +14,11 @@ https://drawsql.app/development-9/diagrams/business-plan#
 - install dependancies or
 - type pipenv `install -r requirements.txt`
 - change to app directory cd bussiness_plan
+- install libpq-dev on ubuntu `sudo apt install -y libpq-dev`
+- login to postgresql server with password `sudo -u postgres psql`
+- create database with name for example plan `CREATE DATABASE plan`
+- create user with name for example app and password for example mypassword `postgres=# create user app with encrypted password 'mypassword';`
+- grant privileges on database plan to user app `postgres=# grant all privileges on database plan to app;`
 - map django orm to database python manage.py makemigrations
 - apply orm migrations python manage.py migrate
 - create superuser for admin panal python manage.py createsuperuser go with prompts
