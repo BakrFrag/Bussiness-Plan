@@ -21,7 +21,7 @@ https://drawsql.app/development-9/diagrams/business-plan#
 
 # Request & Response Cycle
 - postman collection for various request and response in different testcases
-
+- https://www.getpostman.com/collections/958b667540cdbbbacc40
 # URLs for services
 
 - for admin panal `http://127.0.0.1:8000/admin/`
